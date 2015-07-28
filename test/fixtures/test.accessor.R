@@ -2,8 +2,8 @@ options( digits = 16 )
 library( jsonlite )
 
 
-alpha = 1
-beta = 1
+alpha = 4
+beta = 4
 probs = seq( 0, 1, 0.01 )
 y = qgamma( probs, alpha, beta )
 
